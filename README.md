@@ -11,6 +11,6 @@ Yeenbox is still in heavy development and still drawing down the core of the Yee
 ## About the author
 High I am Haley and I currently still working on my studies. This fact means Yeenbox will have a slower development time but I am actively working on it.
 
-##How to use the code in it's current state?
+## How to use the code in it's current state?
 
 Well if you would like too compile the code for Yeenbox you will need too add a few external libraries too your project. These librarys are ImageSharp and OpenTK. After that where the exe is compiled too you must copy the bin folder too it. This folder contains textures and shaders the program will accsess.
