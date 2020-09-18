@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yeen Box", "Yeen Box\Yeen Box.csproj", "{B82B02EC-A6EE-48FD-A543-4AAD244670D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yeen Box Lib", "Yeen Box Lib\Yeen Box Lib.csproj", "{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82B02EC-A6EE-48FD-A543-4AAD244670D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82B02EC-A6EE-48FD-A543-4AAD244670D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82B02EC-A6EE-48FD-A543-4AAD244670D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82B02EC-A6EE-48FD-A543-4AAD244670D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E09E56-953A-435A-9C95-4F4225967419}
+	EndGlobalSection
+EndGlobal
