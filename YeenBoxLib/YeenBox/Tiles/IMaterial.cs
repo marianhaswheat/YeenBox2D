@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Yeen_Box_Lib.YeenBox.Tiles
+namespace YeenBoxLib.YeenBox.Tiles
 {
     /*
      * This class is setting up the basics for materials which will be used later in game developement.

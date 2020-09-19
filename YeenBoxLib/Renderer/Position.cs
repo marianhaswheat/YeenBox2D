@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using OpenTK;
 using OpenTK.Graphics;
 
-namespace Yeen_Box_Lib.Renderer
+namespace YeenBoxLib.Renderer
 {
     class Transformation
     {

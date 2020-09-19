@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using OpenTK;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
-using Yeen_Box.Renderer;
+using YeenBoxLib.Renderer;
 
-using Yeen_Box_Lib.YeenBox;
+using YeenBoxLib.YeenBox;
 
-namespace Yeen_Box_Lib.Renderer
+namespace YeenBoxLib.Renderer
 {
     class Renderer
     {

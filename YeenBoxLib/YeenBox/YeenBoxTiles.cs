@@ -6,14 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Yeen_Box_Lib.Renderer;
-using Yeen_Box_Lib.YeenBox.Tiles;
-using Yeen_Box_Lib.YeenBox.World;
+using YeenBoxLib.Renderer;
+using YeenBoxLib.YeenBox.Tiles;
+using YeenBoxLib.YeenBox.World;
 
 using OpenTK.Mathematics;
 
 
-namespace Yeen_Box_Lib.YeenBox
+namespace YeenBoxLib.YeenBox
 {
     class YeenBoxTiles
     {

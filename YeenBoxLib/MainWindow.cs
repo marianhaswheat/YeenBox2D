@@ -5,7 +5,7 @@ using System.Text;
 using OpenTK.Windowing.Common;
 using OpenTK.Mathematics;
 
-using Yeen_Box.Renderer;
+using YeenBoxLib.Renderer;
 
 namespace YeenBoxLib
 {
@@ -31,12 +31,12 @@ namespace YeenBoxLib
 
         protected override void OnLoad()
         {
-            Yeen_Box_Lib.Renderer.Renderer.LoadRenderer();
+            Renderer.Renderer.LoadRenderer();
         }
 
         protected override void OnUpdateFrame(FrameEventArgs args)
         {
-            Yeen_Box_Lib.Renderer.Renderer.DrawFrame();
+            Renderer.Renderer.DrawFrame();
             SwapBuffers();
             base.OnUpdateFrame(args);
         }

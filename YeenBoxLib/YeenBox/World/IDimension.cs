@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using OpenTK.Mathematics;
 using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL4;
-using Yeen_Box_Lib.YeenBox.Tiles;
+using YeenBoxLib.YeenBox.Tiles;
 
-namespace Yeen_Box_Lib.YeenBox.World
+namespace YeenBoxLib.YeenBox.World
 {
     class IDimension
     {

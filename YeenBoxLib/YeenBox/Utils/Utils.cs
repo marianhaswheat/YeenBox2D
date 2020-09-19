@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Yeen_Box_Lib.Renderer;
-using Yeen_Box_Lib.YeenBox.Tiles;
+using YeenBoxLib.Renderer;
+using YeenBoxLib.YeenBox.Tiles;
 
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace Yeen_Box_Lib.YeenBox
+namespace YeenBoxLib.YeenBox
 {
     class YeenUtils
     {

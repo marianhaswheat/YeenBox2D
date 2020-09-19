@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using OpenTK.Graphics.OpenGL4;
 
-namespace Yeen_Box.Renderer
+namespace YeenBoxLib.Renderer
 {
     public class ShaderSystem
     {

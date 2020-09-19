@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-using OpenTK;
-using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
+using OpenTK.Windowing.Common;
+
 using YeenBoxLib.Renderer;
 
-namespace YeenBoxLib.YeenBox.Tiles
+namespace YeenBoxLib.YeenBox.Player
 {
-    class ITile
+    class Player
     {
         //Location of the Tile in the world
         public Vector2 position;
@@ -20,7 +17,7 @@ namespace YeenBoxLib.YeenBox.Tiles
         public int TextureBind;
 
         //Intiilizes a copy of the Tile and takes the index of where the texture is located at
-        public ITile(int Index)
+        public Player(int Index, bool isLocal)
         {
             TextureBind = Texture.TextureBinds[Index];
         }

@@ -9,7 +9,7 @@ using System.Drawing;
 using OpenTK.Graphics.OpenGL4;
 
 
-namespace Yeen_Box_Lib.Renderer
+namespace YeenBoxLib.Renderer
 {
     class Texture
     {

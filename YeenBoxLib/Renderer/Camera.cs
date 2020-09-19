@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Yeen_Box_Lib.Renderer
+namespace YeenBoxLib.Renderer
 {
     public class Camera
     {
