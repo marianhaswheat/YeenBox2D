@@ -10,6 +10,9 @@ using Yeen_Box_Lib.Renderer;
 using Yeen_Box_Lib.YeenBox.Tiles;
 using Yeen_Box_Lib.YeenBox.World;
 
+using OpenTK.Mathematics;
+
+
 namespace Yeen_Box_Lib.YeenBox
 {
     class YeenBoxTiles
@@ -38,7 +41,7 @@ namespace Yeen_Box_Lib.YeenBox
 
             camera = new Camera(Renderer.Renderer.width, Renderer.Renderer.height);
 
-            camera.setCameraPosition(0, 0);
+            camera.setCameraPosition(1, 1);
 
             World.GenerateWorld();
         }

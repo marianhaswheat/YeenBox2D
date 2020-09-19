@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yeen Box", "Yeen Box\Yeen B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yeen Box Lib", "Yeen Box Lib\Yeen Box Lib.csproj", "{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeenBoxLib", "YeenBoxLib\YeenBoxLib.csproj", "{8E690C9C-24E0-47CE-9F79-AF78ED904DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADCCFB3-F9FB-4133-83B3-7894158A10E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E690C9C-24E0-47CE-9F79-AF78ED904DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E690C9C-24E0-47CE-9F79-AF78ED904DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E690C9C-24E0-47CE-9F79-AF78ED904DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E690C9C-24E0-47CE-9F79-AF78ED904DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

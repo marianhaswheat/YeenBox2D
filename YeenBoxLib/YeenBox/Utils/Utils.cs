@@ -7,7 +7,7 @@ using Yeen_Box_Lib.Renderer;
 using Yeen_Box_Lib.YeenBox.Tiles;
 
 using OpenTK.Graphics.OpenGL4;
-using OpenTK;
+using OpenTK.Mathematics;
 
 namespace Yeen_Box_Lib.YeenBox
 {
