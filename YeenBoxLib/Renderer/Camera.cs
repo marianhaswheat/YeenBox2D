@@ -57,10 +57,16 @@ namespace YeenBoxLib.Renderer
             CameraPosition *= Matrix4.CreateTranslation(0, speed, 0);
         }
 
-        //Set camera position to a specif 2D coordinate.
+        //Set camera position to a specif 2D coordinate. Using an X and Y
         public void setCameraPosition(float x, float y)
         {
             CameraPosition = Matrix4.CreateTranslation(x, y, 1);
+        }
+
+        //Set camera position overload to a specif 2D coordinate. Uses a Vector2
+        public void setCameraPosition(Vector2 pos)
+        {
+            CameraPosition = Matrix4.CreateTranslation(pos.X, pos.Y, 1);
         }
 
         //Create the projection Matrix

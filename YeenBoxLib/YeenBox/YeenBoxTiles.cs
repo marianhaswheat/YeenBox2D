@@ -50,6 +50,15 @@ namespace YeenBoxLib.YeenBox
 
         public static double xx = 0;
 
+        //Update game logic!
+
+        public static void UpdateWorld()
+        {
+
+        }
+
+
+        //Rendering and calling upon render functiosn will occur here!
         public static void renderWorld()
         {
             xx += 0.01f;
