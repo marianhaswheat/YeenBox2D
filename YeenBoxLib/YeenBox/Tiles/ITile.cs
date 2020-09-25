@@ -14,8 +14,9 @@ namespace YeenBoxLib.YeenBox.Tiles
 {
     class ITile
     {
+        //
         //Location of the Tile in the world
-        public Vector2 position;
+        public Matrix4 position;
         //The memory location on the GPU for the texture
         public int TextureBind;
 
@@ -34,7 +35,7 @@ namespace YeenBoxLib.YeenBox.Tiles
         //Set the positon of the Tile
         public void setPosition(int x, int y)
         {
-            position = new Vector2(x, y);
+            position = Matrix4.CreateTranslation(x, y, -7);
         }
     }
 }

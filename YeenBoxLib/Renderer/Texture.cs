@@ -39,6 +39,8 @@ namespace YeenBoxLib.Renderer
             GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Nearest);
 
             //Start storing bitmap data into a BitmapData type
+            image.RotateFlip(RotateFlipType.RotateNoneFlipY);
+            image.MakeTransparent(Color.FromArgb(0xEB5BFF));
             System.Drawing.Imaging.BitmapData data = image.LockBits(new System.Drawing.Rectangle(0, 0, image.Width, image.Height),
             System.Drawing.Imaging.ImageLockMode.ReadOnly, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
 

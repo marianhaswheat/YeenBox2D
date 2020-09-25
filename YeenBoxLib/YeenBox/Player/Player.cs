@@ -12,7 +12,7 @@ namespace YeenBoxLib.YeenBox.Player
     class Player
     {
         //Location of the player in the world
-        public Vector2 position;
+        public Matrix4 position;
         //The memory location on the GPU for the texture
         public int TextureBind;
 
@@ -35,31 +35,31 @@ namespace YeenBoxLib.YeenBox.Player
         {
             if (mov == PlayerMovement.LEFT)
             {
-                position += new Vector2(-1, 0);
+                //position += new Vector2(-1, 0);
             }
             if (mov == PlayerMovement.RIGHT)
             {
-                position += new Vector2(-1, 0);
+                //position += new Vector2(-1, 0);
             }
             if (mov == PlayerMovement.UP)
             {
-                position += new Vector2(-1, 0);
+                //position += new Vector2(-1, 0);
             }
             if (mov == PlayerMovement.DOWN)
             {
-                position += new Vector2(-1, 0);
+                //position += new Vector2(-1, 0);
             }
         }
 
         //Set the positon of the Tile
         public void setPosition(int x, int y)
         {
-            position = new Vector2(x, y);
+            position = Matrix4.CreateTranslation(x, y, -5);
         }
 
         public void UpdateCamera(Camera camera)
         {
-            camera.setCameraPosition(position);
+            //camera.setCameraPosition(position);
         }
 
     }

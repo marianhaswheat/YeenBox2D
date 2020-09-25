@@ -44,6 +44,12 @@ namespace YeenBoxLib.Renderer
             GL.ShaderSource(fragmentShader, FragmentShaderSource);
             GL.CompileShader(fragmentShader);
 
+            string vertLog = GL.GetShaderInfoLog(vertexShader);
+            string fragLog = GL.GetShaderInfoLog(fragmentShader);
+
+            Console.WriteLine(vertLog);
+            Console.WriteLine(fragLog);
+
             Handle = GL.CreateProgram();
 
             GL.AttachShader(Handle, vertexShader);

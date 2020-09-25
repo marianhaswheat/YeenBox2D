@@ -25,6 +25,7 @@ namespace YeenBoxLib.Renderer
 
         public static ShaderSystem system = new ShaderSystem();
 
+
         public static int Shader;
 
         public static Matrix4 ProjectionMatrix;
@@ -36,6 +37,9 @@ namespace YeenBoxLib.Renderer
 
         public static void LoadRenderer()
         {
+            GL.Enable(EnableCap.Blend);
+            GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
+
             CompileShaders();
 
             CreateProjectionMatrix(width, height);
@@ -96,6 +100,11 @@ namespace YeenBoxLib.Renderer
             GL.BindBuffer(BufferTarget.ArrayBuffer, 0);
             //Delete Vertex Buffer
             GL.DeleteBuffer(VertexBufferObject);
+
+            GL.DeleteProgram(Shader);
+
+            Console.WriteLine("Disposing graphics objects");
+
         }
 
     }
