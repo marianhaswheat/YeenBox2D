@@ -35,6 +35,7 @@ namespace YeenBoxLib.YeenBox
         public static Matrix4 world = Matrix4.Identity;
 
         public static float[] Lights;
+        public static float[] LightColors;
 
         public static Player.Player player;
 
@@ -48,10 +49,18 @@ namespace YeenBoxLib.YeenBox
 
             Lights = new float[12]
             {
-                1.0f, 1.0f, 0.5f,
-                9.0f, 1.0f, 0.5f,
-                1.0f, 9.0f, 0.5f,
-                9.0f, 9.0f, 0.5f
+                1.0f, 1.0f, 1f,
+                9.0f, 1.0f, 3f,
+                1.0f, 9.0f, 4f,
+                9.0f, 9.0f, 1f
+            };
+
+            LightColors = new float[12]
+            {
+                1.0f, 1.0f, 1f,
+                1.0f, 0.7f, 0.3f,
+                1.0f, 1.0f, 1f,
+                9.0f, 9.0f, 1f
             };
 
             floor = new ITile(0);
@@ -91,14 +100,11 @@ namespace YeenBoxLib.YeenBox
             camera.setCameraPosition(-X, -Y);
 
             GL.Uniform3(10, 12, Lights);
+            GL.Uniform3(20, 12, LightColors);
             GL.Uniform1(9, 4);
 
             xx += 0.01f;
 
-            float xtrue = (float)Math.Sin(xx);
-            float ytrue = (float)Math.Cos(xx);
-
-            
             World.RenderWorld(camera);
             YeenUtils.RenderPlayer(camera, player);
         }

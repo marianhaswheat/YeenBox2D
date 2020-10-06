@@ -13,6 +13,7 @@ using OpenTK.Windowing.GraphicsLibraryFramework;
 using YeenBoxLib.YeenBox;
 
 using OpenTK.Graphics.OpenGL4;
+using System.Threading;
 
 namespace YeenBoxLib
 {
@@ -40,6 +41,7 @@ namespace YeenBoxLib
         protected override void OnLoad()
         {
             Renderer.Renderer.LoadRenderer();
+            Thread.Sleep(500);
         }
 
         protected override void OnUpdateFrame(FrameEventArgs args)

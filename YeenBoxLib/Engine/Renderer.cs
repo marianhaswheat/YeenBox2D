@@ -102,6 +102,7 @@ namespace YeenBoxLib.Renderer
             GL.DeleteBuffer(VertexBufferObject);
 
             GL.DeleteProgram(Shader);
+            GL.DeleteTextures(Texture.TextureBinds.Length, Texture.TextureBinds);
 
             Console.WriteLine("Disposing graphics objects");
 

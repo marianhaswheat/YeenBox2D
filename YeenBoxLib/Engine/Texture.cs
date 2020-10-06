@@ -44,11 +44,11 @@ namespace YeenBoxLib.Renderer
             System.Drawing.Imaging.BitmapData data = image.LockBits(new System.Drawing.Rectangle(0, 0, image.Width, image.Height),
             System.Drawing.Imaging.ImageLockMode.ReadOnly, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
 
-            
             GL.TexImage2D(TextureTarget.Texture2D, 0, PixelInternalFormat.Rgba, image.Width, image.Height, 0, (OpenTK.Graphics.OpenGL4.PixelFormat)PixelInternalFormat.Rgba, PixelType.UnsignedByte, data.Scan0);
             image.UnlockBits(data);
             GL.GenerateMipmap(GenerateMipmapTarget.Texture2D);
             TextureBinds[index] = Handle;
         }
+
     }
 }
